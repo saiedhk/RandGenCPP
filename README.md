@@ -21,16 +21,29 @@ hence can produce a different pseudo-random number stream.
 This class provides the following set of member functions:
 
 bool rand_bool(void);
+
 int uniform_int(int a, int b);
+
 double rand_double(void);
+
 double uniform_double(double a, double b);
+
 double exponential(double lambda);
+
 int bernoulli(double p);
+
 double normal(void);
+
 double normal(double mu, double sigma);
+
 double weibull(double a, double lambda);
+
 double erlang(int n, double lambda);
+
 int geometric(double p);
+
 int binomial(int n, double p);
+
 int negativebinomial(int n, double p);
+
 int poisson(double lambda);
