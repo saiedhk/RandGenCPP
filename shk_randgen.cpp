@@ -24,7 +24,7 @@ namespace shk
 //------------------------------------------------------
 RandGen::RandGen(void)
 {
-    // default fixed seed array is set to digits of Pi (arbitrarily)
+    // default fixed seed array is set to digits of Pi (my arbitrary choice)
     state[0]  = 3141592653589793238ULL;
     state[1]  = 4626433832795028841ULL;
     state[2]  = 9716939937510582097ULL;
