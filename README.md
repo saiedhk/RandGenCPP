@@ -12,13 +12,13 @@ of (2 ^ 1024 - 1). It is a fast and high-quality PRNG, which passes the BigCrush
 test in U01 test suite. It is studied and evaluated in this paper:   
 
 Sebastiano Vigna, "An experimental exploration of Marsaglia's xorshift generators, 
-scrambled" (2014). arXiv:1402.6246.
+scrambled" (2014). http://arxiv.org/abs/1402.6246v4
 
 A RandGen object is seeded once only when a 'RandGen' it is constructed. If multiple
 'RandGen' objects are instantiated in a program, they can have a different seed and 
 hence can produce a different pseudo-random number stream.
 
-This class provides the following set of member functions:
+This class provides the following set of public member functions:
 
 bool rand_bool(void);
 
